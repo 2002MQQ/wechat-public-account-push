@@ -4,24 +4,20 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wx7f8f429d93019ed8",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "7f0659a272ca6ca9b590d969548807fb",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
    * [
    *  {
-   *    // 想要发送的人的名字
-   *    name: "老婆0",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "o-dME5zgD2AlD7QDT3fykX--0VX4", "o-dME5y9Hfr-zxc6aIzfQbJLl0KI",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
-   *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
-   *   }, 
+   *    useTemplateId: "PnT6W5LpaEijWHUnAOPKQO1TkMZDFxb3h6OSAnxTmH0",
+   *   },
    * ]
    */
   USERS: [
@@ -33,9 +29,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
       // 所在省份
-      province: "广东",
+      province: "陕西",
       // 所在城市
-      city: "肇庆",
+      city: “西安",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -89,9 +85,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "陕西",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "西安",
 
   /** 重要节日相关 */
 
